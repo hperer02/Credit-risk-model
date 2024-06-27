@@ -3,20 +3,13 @@
 ## Overview 
 Discover a comprehensive approach to constructing credit risk models. We employ various machine learning algorithms like LightGBM and CatBoost, alongside ensemble techniques for robust predictions. Our pipeline emphasizes data integrity, feature relevance, and model stability, crucial elements in credit risk assessment. 
 
-## Features 
-- **Data Preprocessing**: Begin with cleaning data, handling missing values, and optimizing memory usage for efficient computation.
-- **Feature Engineering**: Extract meaningful insights from data using advanced techniques, enhancing model predictive power.
-- **Model Training**: Train multiple machine learning models such as LightGBM and CatBoost to capture complex relationships and patterns.
-- **Ensemble Learning**: Combine predictions from various models using our custom Voting Model to achieve higher accuracy and stability. 
-
 ## Requirements
 
 - Libraries: NumPy, pandas, polars, seaborn, matplotlib, scikit-learn, lightgbm, imbalanced-learn, joblib, catboost
 
-## Usage 
-Follow these steps:
+## Methodology
 
-1. **Data Loading**: Ensure required datasets are available in the specified directory (`/kaggle/input/home-credit-credit-risk-model-stability`).
+1. **Data Loading**: All files are found in both .csv and .parquet formats and the dataset can be found in the given competition link at the end.
 2. **Initialization**: Run initialization code to set up necessary functions and configurations.
 3. **Data Preprocessing**: Execute data preprocessing steps to handle missing values and optimize memory usage.
 4. **Feature Engineering**: Use provided feature engineering functions to extract relevant features from the dataset.
@@ -27,7 +20,7 @@ Follow these steps:
 ## Detailed Steps
 
 ### Data Loading & Preprocessing
-We start by loading the necessary datasets and performing initial preprocessing steps. This includes handling missing values, removing duplicates, and optimizing memory usage. The preprocessing pipeline ensures that the data is clean and ready for feature extraction and model training.
+This dataset contains a large number of tables as a result of utilizing diverse data sources and the varying levels of data aggregation used while preparing the dataset. We start by loading the necessary datasets and performing initial preprocessing steps. This includes handling missing values, removing duplicates, and optimizing memory usage. The preprocessing pipeline ensures that the data is clean and ready for feature extraction and model training.
 
 ### Data Augmentation
 To enhance the model's ability to generalize, we apply data augmentation techniques. This involves generating synthetic samples or transforming existing data to increase the diversity and robustness of the training set.
