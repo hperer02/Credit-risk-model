@@ -44,9 +44,4 @@ In the inference phase, we use the trained ensemble model to make predictions on
 ## Conclusion
 This project demonstrates a full pipeline for developing a robust credit risk model. By focusing on data preprocessing, feature engineering, model training, and ensemble learning, we achieve high accuracy and model stability. This approach is essential for effective credit risk assessment and can be adapted to other domains requiring reliable predictive modeling.
 
-## Contact
-For any questions or further information, please contact [Your Name] at [Your Email].
-
----
-
-Thank you for using our credit risk model pipeline. We hope this project provides valuable insights and contributes to your machine learning endeavors!
+**Competition link** - https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability 
