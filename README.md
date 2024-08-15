@@ -1,7 +1,7 @@
 # Home Credit Risk Model Pipeline
 
 ## Overview 
-Discover a comprehensive approach to constructing credit risk models. We employ various machine learning algorithms like LightGBM and CatBoost, alongside ensemble techniques for robust predictions. Our pipeline emphasizes data integrity, feature relevance, and model stability, crucial elements in credit risk assessment. 
+Discover a comprehensive approach to constructing credit risk models, employing some various machine learning algorithms like LightGBM and CatBoost, alongside ensemble techniques for robust predictions. Our pipeline emphasizes data integrity, feature relevance, and model stability, crucial elements in credit risk assessment. 
 
 ## Requirements
 
@@ -22,11 +22,8 @@ Discover a comprehensive approach to constructing credit risk models. We employ 
 ### Data Loading & Preprocessing
 This dataset contains a large number of tables as a result of utilizing diverse data sources and the varying levels of data aggregation used while preparing the dataset. We start by loading the necessary datasets and performing initial preprocessing steps. This includes handling missing values, removing duplicates, and optimizing memory usage. The preprocessing pipeline ensures that the data is clean and ready for feature extraction and model training.
 
-### Data Augmentation
-To enhance the model's ability to generalize, we apply data augmentation techniques. This involves generating synthetic samples or transforming existing data to increase the diversity and robustness of the training set.
-
 ### Feature Engineering
-Feature engineering is crucial for improving model performance. We create new features based on domain knowledge and data exploration. This includes aggregating statistics, creating polynomial features, and encoding categorical variables. Advanced feature selection methods are also employed to retain the most relevant features for the model.
+Feature engineering is crucial for improving model performance. We create new features based on domain knowledge and data exploration. This includes aggregating statistics, and encoding categorical variables. Advanced feature selection methods are also employed to retain the most relevant features for the model.
 
 ### Model Building & Training
 We implement and train several machine learning models, including:
